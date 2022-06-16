@@ -2,8 +2,8 @@ package geecache
 
 import (
 	"errors"
-	pb "geecache/geecachepb"
-	"geecache/singleflight"
+	pb "github.com/nc-77/geecache/geecachepb"
+	"github.com/nc-77/geecache/singleflight"
 	"log"
 	"sync"
 )

@@ -2,9 +2,9 @@ package geecache
 
 import (
 	"fmt"
-	pb "geecache/geecachepb"
-	"geecache/hash"
 	"github.com/golang/protobuf/proto"
+	pb "github.com/nc-77/geecache/geecachepb"
+	"github.com/nc-77/geecache/hash"
 	"io/ioutil"
 	"log"
 	"net/http"
